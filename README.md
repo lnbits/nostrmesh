@@ -2,10 +2,4 @@
 microcontroller mesh
 
 <div style="background:#C5DECD;width:200px;height:200px;font-color:#495159"></div>
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
