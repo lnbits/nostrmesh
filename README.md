@@ -1,5 +1,19 @@
-<h1 style="font-color:#495159"><strong>nostrmesh</strong></h1>
-microcontroller mesh
+$\mathcal{\color{purple}{this \ is \ a \ paragraph} \ \color{cyan}{in \ another \ font}}$
 
-<div style="background:#C5DECD;width:200px;height:200px;font-color:#495159"></div>
-$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
+$\mathbb{\color{teal}{this \ is \ a } \ \color{magenta}{paragraph \ in \ another \ font}}$
+
+$\mathscr{\color{red}{this} \ \ \color{blue}{is \ \ a \ \ paragraph} \ \ \color{yellow}{in \ \ another \ \ font}}$
+
+$\mathfrak{\color{lime}{this \ is \ a \ paragraph \ in \ another \ font}}$
+
+$\mathscr{\color{red}{mon}\color{white}{day}}$
+
+$\textcolor{olive}{\TeX} \ \textcolor{darkgray}{workaround \ found \ by \ Dassalem \ Mohammed \ Yasser}$
+
+$\textit{hello}$  #italic
+
+$\text{hello}$    #normal
+
+$\Large{hello}$$   #Bigger text size
+
+$$\LaTeX$$
