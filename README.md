@@ -30,7 +30,7 @@ A node will wait and search for other nodes to connect to.
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
-![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/99f115c0-18d9-425f-ad7a-747bed39928a)
+![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/474bd084-b31d-4118-a1cc-95a9a1c018e0)
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
 
