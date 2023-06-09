@@ -8,7 +8,7 @@ While utilizing WiFi for node connections imposes a range limitation of less tha
 
 ESP32 microcontrollers are both highly affordable and widely accessible. With a mere $1 cost for the basic controller, nodes can be effortlessly integrated into passive electronics such as light bulbs, facilitating the creation of a robust mesh network.
 
-Each node has the ability to:
+##### Each node has the ability to:
 * Establish a WiFi station
 * Set up a web server
 * Initialize a websocket connection
