@@ -16,9 +16,9 @@ ESP32 microcontrollers are both highly affordable and widely accessible. With a 
 * Enable a stateless relay for sending and receiving events
 * Act as a nostr client (optional: applicable when the microcontroller is utilized in an IoT device, such as a weather station for data posting)
 
-## Why nostrmesh
+## Comparison with current systems
 
-ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Transport) are two popular approaches to creating mesh networks with ESP32 microcontrollers.
+ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Transport) are the two popular approaches to creating mesh networks with ESP32 microcontrollers.
 
 * *ESP-MDF (ESP Mesh Development Framework):* ESP-MDF is a comprehensive mesh development framework provided by Espressif Systems specifically for ESP32 microcontrollers. It is built on top of the ESP-IDF (ESP32 IoT Development Framework) and provides a high-level API for creating and managing mesh networks. ESP-MDF supports the ESP-MESH protocol, which is based on the IEEE 802.11s standard, enabling devices to form self-healing and self-organizing mesh networks. The framework includes features such as automatic topology construction, network management, and remote configuration. ESP-MDF simplifies the development process by providing a set of tools and APIs to handle mesh network operations, allowing developers to focus on the application logic rather than the underlying mesh infrastructure.
 
