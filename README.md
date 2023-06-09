@@ -26,9 +26,13 @@ ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Tra
 
 ## Nostrmesh Examples
 
-A node will wait and search for other nodes to connect to.
+### Single node
+
+The node will wait and search for other nodes to connect to.
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
+
+### Connecting to another node
 
 To connect to a peer a node must: 
 * be in close enough proximit
@@ -41,6 +45,8 @@ Password: <shared-mesh-password>
 ```
 
 Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
+
+### Connecting to another node
 
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/474bd084-b31d-4118-a1cc-95a9a1c018e0)
 
