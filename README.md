@@ -46,11 +46,11 @@ Password: <shared-mesh-password>
 
 Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
 
-### Connecting to another node
-
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/474bd084-b31d-4118-a1cc-95a9a1c018e0)
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
+
+
 
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
