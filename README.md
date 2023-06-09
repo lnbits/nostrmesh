@@ -46,10 +46,13 @@ Password: <shared-mesh-password>
 
 Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
 
+The opening event request-header `User-Agent` must be set as a `nostrmesh node`
+
+![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/e6298f00-27c9-4952-bf83-73b8b9312043)
+
+### Scaling
+
 The node will continue to look for other nodes to connect to.
-
-
-![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/474bd084-b31d-4118-a1cc-95a9a1c018e0)
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
 
@@ -61,8 +64,10 @@ With the nodes always looking for peers to connevct to, the mesh will self-heal.
 
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
-### broadcast
+### Mapping, Unicast, broadcast
 
-### Unicast
+External devices can connect to any node using the nodes `SSID`, `WiFi password` and the nodes relay `127.0.0.1:4545`. 
+
+When a device connects that is not `User-Agent: nostrmesh node`, the node will launch a nostr client and request broadcast a connections what nodes they are connected to, which is a request passed to the othe 
 
 ![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
