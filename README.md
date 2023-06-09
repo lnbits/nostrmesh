@@ -8,13 +8,12 @@ While utilizing WiFi for node connections imposes a range limitation of less tha
 
 ESP32 microcontrollers are both highly affordable and widely accessible. With a mere $1 cost for the basic controller, nodes can be effortlessly integrated into passive electronics such as light bulbs, facilitating the creation of a robust mesh network.
 
-##### Each node has the ability to:
+##### Each nostrmesh node has the ability to:
 * Establish a WiFi station
-* Set up a web server
-* Initialize a websocket connection
+* Set up a websocket server
 * Connect to a websocket
-* Enable a stateless relay for sending and receiving events
-* Act as a nostr client (optional: applicable when the microcontroller is utilized in an IoT device, such as a weather station for data posting)
+* Run a stateless nostr relay for sending and receiving events using <a href="https://github.com/lnbits/arduino-nostr">Nostr-Arduino</a>
+* Run a nostr client using <a href="https://github.com/lnbits/arduino-nostr">Nostr-Arduino</a>
 
 ## Comparison with Current Systems
 
@@ -25,12 +24,6 @@ ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Tra
 * *MQTT (Message Queuing Telemetry Transport) Protocol:* MQTT is a lightweight and efficient messaging protocol commonly used in IoT applications. It can also be leveraged to create mesh networks with ESP32 microcontrollers. In this approach, each ESP32 node in the mesh network can act as both a publisher and a subscriber. The nodes connect to a central MQTT broker, which manages the message distribution across the network. MQTT's publish-subscribe model enables easy communication between nodes, allowing data to be efficiently shared. MQTT supports topics, which act as message channels, enabling data organization and efficient filtering of relevant messages. This approach provides flexibility in terms of network architecture and allows for the integration of other MQTT-enabled devices in the mesh network.
 
 ## Nostrmesh Examples
-
-### Single node
-
-The node will wait and search for other nodes to connect to.
-
-![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
 ### Connecting to a node
 
@@ -56,9 +49,9 @@ The node will continue to look for other nodes to connect to.
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
 
-### Seperating and self-healing
+### Seperating/healing
 
-If a mesh is seperated by a noe failing or being seperated by too great a distane, the mesh will turn into multiple networks.
+If a mesh is seperated by a node failure of conection issues, the mesh will seperte into multiple networks.
 
 With the nodes always looking for peers to connevct to, the mesh will self-heal.
 
