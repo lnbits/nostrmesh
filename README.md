@@ -45,19 +45,21 @@ The opening event request-header `User-Agent` must be set as a `nostrmesh node`
 
 ### Scaling
 
-The node will continue to look for other nodes to connect to.
-
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
+
+The node will continue to look for other nodes to connect to.
 
 ### Seperating/healing
 
-If a mesh is seperated by a node failure of conection issues, the mesh will seperte into multiple networks.
-
-With the nodes always looking for peers to connevct to, the mesh will self-heal.
-
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
+If a mesh is seperated, the mesh will seperate into multiple networks.
+
+With the nodes always looking for peers to connect to, the mesh wil self-heal.
+
 ### Mapping, Unicast, broadcast
+
+![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
 
 External devices can connect to any node using the nodes `SSID`, `WiFi password` and then the nodes relay on `127.0.0.1:4545`. 
 
@@ -79,5 +81,3 @@ Every node has a client so can publish events to be shared by the mesh as a whol
 
 ##### Unicast: 
 Using <a href="https://github.com/lnbits/nostrmesh/blob/main/README.md#mapping">mapping</a> and `tag: r` proposed here https://github.com/nostr-protocol/nips/pull/594, a client can send data in a unicast way through the relay network.
-
-![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
