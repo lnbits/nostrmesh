@@ -26,6 +26,7 @@ ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Tra
 
 ## Nostrmesh Examples
 
+A node will wait and search for other nodes to connect to.
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
