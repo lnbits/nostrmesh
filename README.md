@@ -8,6 +8,13 @@ While utilizing WiFi for node connections imposes a range limitation of less tha
 
 ESP32 microcontrollers are both highly affordable and widely accessible. With a mere $1 cost for the basic controller, nodes can be effortlessly integrated into passive electronics such as light bulbs, facilitating the creation of a robust mesh network.
 
+Each node has the ability to:
+* Establish a WiFi station
+* Set up a web server
+* Initialize a websocket connection
+* Connect to a websocket
+* Enable a stateless relay for sending and receiving events
+* Act as a nostr client (optional: applicable when the microcontroller is utilized in an IoT device, such as a weather station for data posting)
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/99f115c0-18d9-425f-ad7a-747bed39928a)
