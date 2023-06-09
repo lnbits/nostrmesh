@@ -49,11 +49,11 @@ The opening event request-header `User-Agent` must be set as a `nostrmesh node`
 
 The node will continue to look for other nodes to connect to.
 
-### Seperating/healing
+### Separating/healing
 
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
-If a mesh is seperated, the mesh will seperate into multiple networks.
+If a mesh is separated, the mesh will separate into multiple networks.
 
 With the nodes always looking for peers to connect to, the mesh wil self-heal.
 
