@@ -1,15 +1,13 @@
-
-![nostrmeshlogo](https://github.com/lnbits/nostrmesh/assets/33088785/f1a5c5a5-59f1-4c94-903c-4cf325e07414)
+![nostrmeshlogo](https://github.com/lnbits/nostrmesh/assets/33088785/8634277b-79ab-4a96-b8d1-3fbe44f35fd4)
 
 ## Self-heaing ESP32 nostr-arduino based mesh network
 
-![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/b0af9877-6332-4ba1-a2ac-0e189c8bbc11)
+![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
-![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/b17287ff-63c2-4327-a6e9-118fdd90c766)
+![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/99f115c0-18d9-425f-ad7a-747bed39928a)
 
-![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/b347bf32-898b-4f59-9660-cd11376dd707)
+![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
 
-![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/973596d6-a4b4-4caf-afc5-9065b333cd55)
+![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
-![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/5f675bea-e5e3-49a4-b4a0-32ba4ad78dd2)
-
+![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
