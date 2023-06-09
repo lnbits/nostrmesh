@@ -1,7 +1,7 @@
 
 ![nostrmeshlogo](https://github.com/lnbits/nostrmesh/assets/33088785/f1a5c5a5-59f1-4c94-903c-4cf325e07414)
 
-## Self heaing ESP32 nostr-arduino based mesh network
+## Self-heaing ESP32 nostr-arduino based mesh network
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/b0af9877-6332-4ba1-a2ac-0e189c8bbc11)
 
