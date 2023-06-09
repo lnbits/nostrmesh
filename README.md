@@ -1,6 +1,6 @@
 ![nostrmeshlogo](https://github.com/lnbits/nostrmesh/assets/33088785/8634277b-79ab-4a96-b8d1-3fbe44f35fd4)
 
-## Self-Heaing ESP32 Nostr-Arduino Based Mesh-Network
+## Self-Heaing ESP32 <a href="https://github.com/lnbits/arduino-nostr">Nostr-Arduino</a> Based Mesh-Network
 
 The similicty of the nostr-protocol, makes it ieal for use with mesh-networking.
 
