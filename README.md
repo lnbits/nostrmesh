@@ -2,7 +2,7 @@
 
 ## Self-heaing ESP32 nostr-arduino based mesh network
 
-There are various approaches to constructing mesh networks with microcontrollers, and one such method is the nostrmesh, which leverages WiFi connectivity between nodes and the nostr protocol.
+The similicty of the nostr-protocol, makes it ieal for use with mesh-networking.
 
 While utilizing WiFi for node connections imposes a range limitation of less than 200 meters, it significantly boosts bandwidth, thereby enabling the sharing of internet access across the mesh network.
 
