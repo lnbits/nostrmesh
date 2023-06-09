@@ -46,6 +46,14 @@ Password: <shared-mesh-password>
 
 Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
 
+The node will continue to look for other nodes to connect to.
+
+### Seperating and self-healing
+
+If a mesh is seperated by a noe failing or being seperated by too great a distane, the mesh will turn into multiple networks.
+
+With the nodes always looking for peers to connevct to, the mesh will self-heal.
+
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/474bd084-b31d-4118-a1cc-95a9a1c018e0)
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
