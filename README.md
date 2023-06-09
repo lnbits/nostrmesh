@@ -85,6 +85,6 @@ Each node builds a json map of the netork from the data.
 Every node has a client so can publish events to be shared by the mesh as a whole
 
 ##### Unicast: 
-Using the <a href="https://github.com/lnbits/nostrmesh/blob/main/README.md#mapping">mapping</a> and `tag: r` proposed here https://github.com/nostr-protocol/nips/pull/594, a client can send data in a unicast way through the relay network.
+Using <a href="https://github.com/lnbits/nostrmesh/blob/main/README.md#mapping">mapping</a> and `tag: r` proposed here https://github.com/nostr-protocol/nips/pull/594, a client can send data in a unicast way through the relay network.
 
 ![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
