@@ -66,8 +66,8 @@ With the nodes always looking for peers to connevct to, the mesh will self-heal.
 
 ### Mapping, Unicast, broadcast
 
-External devices can connect to any node using the nodes `SSID`, `WiFi password` and the nodes relay `127.0.0.1:4545`. 
+External devices can connect to any node using the nodes `SSID`, `WiFi password` and then the nodes relay on `127.0.0.1:4545`. 
 
-When a device connects that is not `User-Agent: nostrmesh node`, the node will launch a nostr client and request broadcast a connections what nodes they are connected to, which is a request passed to the othe 
+When a device connects to a node that is not `User-Agent: nostrmesh node`, the node being connected to publishes `NIP-01` event with content simply set as `"content": "map"`, all nodes then publish a `NIP-01` event listing the nodes they are directly connected to.
 
 ![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
