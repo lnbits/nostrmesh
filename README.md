@@ -68,6 +68,24 @@ With the nodes always looking for peers to connevct to, the mesh will self-heal.
 
 External devices can connect to any node using the nodes `SSID`, `WiFi password` and then the nodes relay on `127.0.0.1:4545`. 
 
-When a device connects to a node that is not `User-Agent: nostrmesh node`, the node being connected to publishes `NIP-01` event with content simply set as `"content": "map"`, all nodes then publish a `NIP-01` event listing the nodes they are directly connected to.
+**Mapping:** 
+When a device connects to a node that is not `User-Agent: nostrmesh node`, the node being connected to publishes `NIP-01` event with content simply set as `"content": "map"`, all nodes then publish a `NIP-01` event listing the nodes they are directly connected to 
+```
+{"node-id": <node-id>, "friends": "<node-id>,<node-id>,<node-id>"}
+```
+Each node builds a json map of the netork from the data. 
+```
+[
+{"node-id": <node-id>, "pubkey": <nodes-public-key>, "friends": "<node-id>,<node-id>,<node-id>"}, 
+{"node-id": <node-id>, "pubkey": <nodes-public-key>, "friends": "<node-id>,<node-id>,<node-id>"}
+]
+```
+
+**Broadcast:** 
+Every node has a client so can publish events to be shared by the mesh as a whole
+
+**Unicast:** 
+Using the network map and a 
+
 
 ![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
