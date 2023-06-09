@@ -30,8 +30,8 @@ ESP32 microcontrollers are both highly affordable and widely accessible. With a 
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/e6298f00-27c9-4952-bf83-73b8b9312043)
 
 To connect to a peer a node must: 
-* be in close enough proximit
-* share a similar SSID and identical WiFi password
+* Be in close enough proximit
+* Share a similar SSID and identical WiFi password
 
 ```
 WiFi station format:
