@@ -30,8 +30,8 @@ ESP32 microcontrollers are both highly affordable and widely accessible. With a 
 ![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/e6298f00-27c9-4952-bf83-73b8b9312043)
 
 To connect to a peer a node must: 
-* Be in close enough proximit
-* Share a similar SSID and identical WiFi password
+* Be in close enough proximity
+* Share a "similar" SSID and identical WiFi password
 
 ```
 WiFi station format:
@@ -39,23 +39,23 @@ SSID: <shared-mesh-key>-<node-id>
 Password: <shared-mesh-password>
 ```
 
-Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
+Once connected to a node a node will subscribe to the other nodes nostr relay (hosted at `127.0.0.1:4545`)
 
-The opening event request-header `User-Agent` must be set as a `nostrmesh node`
+The opening event request-header `User-Agent` must be set as a `"nostrmesh node"`
 
 ### Scaling
 
 ![mesh3](https://github.com/lnbits/nostrmesh/assets/33088785/323bfbd9-7b9b-4810-8026-0b43e51d17e8)
 
-The node will continue to look for other nodes to connect to.
+The nodes will continue to look for other nodes to connect to. Each node will connect to the 3 nodes with the strongest WiFi signal
 
 ### Separating/healing
 
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
-If a mesh is separated, the mesh will separate into multiple networks.
+the mesh can be separated into multiple networks.
 
-With the nodes always looking for peers to connect to, the mesh wil self-heal.
+If networks sharing the same `<shared-mesh-key>` are in close enough they will heal.
 
 ### Mapping, Unicast, broadcast
 
@@ -63,8 +63,10 @@ With the nodes always looking for peers to connect to, the mesh wil self-heal.
 
 External devices can connect to any node using the nodes `SSID`, `WiFi password` and then the nodes relay on `127.0.0.1:4545`. 
 
+To share data through the network `tag: r` proposed here https://github.com/nostr-protocol/nips/pull/594, or something similar will used.
+
 ##### Mapping: 
-When a device connects to a node that is not `User-Agent: nostrmesh node`, the node being connected to publishes `NIP-01` event with content simply set as `"content": "map"`, all nodes then publish a `NIP-01` event listing the nodes they are directly connected to 
+When a device connects to a node that is not `User-Agent: nostrmesh node`, the node being connected publishes `NIP-01` event with content simply set as `"content": "map"`, all nodes then publish from there clients a `NIP-01` event listing the nodes they are directly connected to 
 ```
 {"node-id": <node-id>, "friends": "<node-id>,<node-id>,<node-id>"}
 ```
@@ -77,4 +79,4 @@ Each node builds a json map of the netork from the data.
 ```
 ##### Broadcast/unicast:
 
-Using <a href="https://github.com/lnbits/nostrmesh/blob/main/README.md#mapping">mapping</a> and `tag: r` proposed here https://github.com/nostr-protocol/nips/pull/594, a client can send data in a unicast or broadcast way through the relay network.
+Using <a href="https://github.com/lnbits/nostrmesh/blob/main/README.md#mapping">mapping</a>, and something like `tag: r`, a client can send data in a unicast or broadcast way through the relay network.
