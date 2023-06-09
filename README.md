@@ -1,6 +1,6 @@
 ![nostrmeshlogo](https://github.com/lnbits/nostrmesh/assets/33088785/8634277b-79ab-4a96-b8d1-3fbe44f35fd4)
 
-## Self-heaing ESP32 nostr-arduino based mesh network
+## Self-Heaing ESP32 Nostr-Arduino Based Mesh-Network
 
 The similicty of the nostr-protocol, makes it ieal for use with mesh-networking.
 
@@ -16,7 +16,7 @@ ESP32 microcontrollers are both highly affordable and widely accessible. With a 
 * Enable a stateless relay for sending and receiving events
 * Act as a nostr client (optional: applicable when the microcontroller is utilized in an IoT device, such as a weather station for data posting)
 
-## Comparison with current systems
+## Comparison with Current Systems
 
 ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Transport) are the two popular approaches to creating mesh networks with ESP32 microcontrollers.
 
@@ -24,7 +24,8 @@ ESP-MDF (ESP Mesh Development Framework) and MQTT (Message Queuing Telemetry Tra
 
 * *MQTT (Message Queuing Telemetry Transport) Protocol:* MQTT is a lightweight and efficient messaging protocol commonly used in IoT applications. It can also be leveraged to create mesh networks with ESP32 microcontrollers. In this approach, each ESP32 node in the mesh network can act as both a publisher and a subscriber. The nodes connect to a central MQTT broker, which manages the message distribution across the network. MQTT's publish-subscribe model enables easy communication between nodes, allowing data to be efficiently shared. MQTT supports topics, which act as message channels, enabling data organization and efficient filtering of relevant messages. This approach provides flexibility in terms of network architecture and allows for the integration of other MQTT-enabled devices in the mesh network.
 
-## Examples
+## nostrmesh Examples
+
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
