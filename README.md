@@ -23,9 +23,11 @@ ESP32 microcontrollers are both highly affordable and widely accessible. With a 
 
 * *MQTT (Message Queuing Telemetry Transport) Protocol:* MQTT is a lightweight and efficient messaging protocol commonly used in IoT applications. It can also be leveraged to create mesh networks with ESP32 microcontrollers. In this approach, each ESP32 node in the mesh network can act as both a publisher and a subscriber. The nodes connect to a central MQTT broker, which manages the message distribution across the network. MQTT's publish-subscribe model enables easy communication between nodes, allowing data to be efficiently shared. MQTT supports topics, which act as message channels, enabling data organization and efficient filtering of relevant messages. This approach provides flexibility in terms of network architecture and allows for the integration of other MQTT-enabled devices in the mesh network.
 
-## Nostrmesh Examples
+## Nostrmesh
 
 ### Connecting to a node
+
+![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/e6298f00-27c9-4952-bf83-73b8b9312043)
 
 To connect to a peer a node must: 
 * be in close enough proximit
@@ -40,8 +42,6 @@ Password: <shared-mesh-password>
 Once connected to a peer the node will subscribe to the other nodes stateless nostr relay, hosted at `127.0.0.1:4545`
 
 The opening event request-header `User-Agent` must be set as a `nostrmesh node`
-
-![mesh2](https://github.com/lnbits/nostrmesh/assets/33088785/e6298f00-27c9-4952-bf83-73b8b9312043)
 
 ### Scaling
 
