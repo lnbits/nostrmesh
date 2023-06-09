@@ -2,7 +2,7 @@
 
 ## Self-Heaing ESP32 <a href="https://github.com/lnbits/arduino-nostr">Nostr-Arduino</a> Based Mesh-Network
 
-The similicty of the nostr-protocol, makes it ieal for use with mesh-networking.
+The similicty of the <a href="https://github.com/nostr-protocol/nostr">nostr-protocol</a>, makes it ieal for use with mesh-networking.
 
 While utilizing WiFi for node connections imposes a range limitation of less than 200 meters, it significantly boosts bandwidth, thereby enabling the sharing of internet access across the mesh network.
 
