@@ -61,4 +61,8 @@ With the nodes always looking for peers to connevct to, the mesh will self-heal.
 
 ![mesh4](https://github.com/lnbits/nostrmesh/assets/33088785/9b5f9837-b509-4ca9-84d9-c860577cbc9a)
 
+### broadcast
+
+### Unicast
+
 ![mesh5](https://github.com/lnbits/nostrmesh/assets/33088785/3be3f3e7-aa8c-49b7-a0b5-7b9522f3930d)
