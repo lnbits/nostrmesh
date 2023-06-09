@@ -32,7 +32,7 @@ The node will wait and search for other nodes to connect to.
 
 ![mesh1](https://github.com/lnbits/nostrmesh/assets/33088785/e62b090f-b6b2-4e9a-afda-8f330c6c2f35)
 
-### Connecting to another node
+### Connecting to a node
 
 To connect to a peer a node must: 
 * be in close enough proximit
